@@ -1,10 +1,12 @@
 package mum.edu.controller;
 
-import mum.edu.framework.annotation.AutoWired;
-import mum.edu.framework.annotation.Controller;
-import mum.edu.framework.annotation.RequestMapping;
+//import mum.edu.framework.annotation.AutoWired;
+//import mum.edu.framework.annotation.Controller;
+//import mum.edu.framework.annotation.RequestMapping;
 import mum.edu.model.Calculator;
 import mum.edu.validator.CalculatorValidator;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
